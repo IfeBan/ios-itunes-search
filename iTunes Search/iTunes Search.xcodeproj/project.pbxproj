@@ -90,6 +90,7 @@
 			children = (
 				9D0E3B522329BFC100F10251 /* SearchResult.swift */,
 				9D0E3B552329C48000F10251 /* ResultType.swift */,
+				9D0E3B592329C52C00F10251 /* SearchResultController.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -97,7 +98,6 @@
 		9D0E3B5B2329C53600F10251 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9D0E3B592329C52C00F10251 /* SearchResultController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
