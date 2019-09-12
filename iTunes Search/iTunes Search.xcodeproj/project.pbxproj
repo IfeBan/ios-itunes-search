@@ -14,6 +14,7 @@
 		9D0E3B532329BFC100F10251 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E3B522329BFC100F10251 /* SearchResult.swift */; };
 		9D0E3B562329C48000F10251 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E3B552329C48000F10251 /* ResultType.swift */; };
 		9D0E3B5A2329C52C00F10251 /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E3B592329C52C00F10251 /* SearchResultController.swift */; };
+		9D0E3B5D2329E80700F10251 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E3B5C2329E80700F10251 /* SearchResultsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9D0E3B522329BFC100F10251 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		9D0E3B552329C48000F10251 /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
 		9D0E3B592329C52C00F10251 /* SearchResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
+		9D0E3B5C2329E80700F10251 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		9D0E3B5B2329C53600F10251 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9D0E3B5C2329E80700F10251 /* SearchResultsTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				9D0E3B5A2329C52C00F10251 /* SearchResultController.swift in Sources */,
 				9D0E3B532329BFC100F10251 /* SearchResult.swift in Sources */,
+				9D0E3B5D2329E80700F10251 /* SearchResultsTableViewController.swift in Sources */,
 				9D0E3B562329C48000F10251 /* ResultType.swift in Sources */,
 				9D0E3B3F2329BB3900F10251 /* AppDelegate.swift in Sources */,
 			);
