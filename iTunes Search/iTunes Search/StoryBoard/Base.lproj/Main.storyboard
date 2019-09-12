@@ -38,6 +38,7 @@
                                         </searchBar>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="Jme-NU-KFw" secondAttribute="trailing" constant="8" id="H2S-Qq-P7F"/>
                                         <constraint firstItem="Jme-NU-KFw" firstAttribute="leading" secondItem="c4G-bN-kT2" secondAttribute="leading" constant="8" id="g98-R2-Qlz"/>
                                     </constraints>
                                 </stackView>
@@ -82,6 +83,10 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="iTunes Search" id="SR6-wF-BaG"/>
+                    <connections>
+                        <outlet property="searchBar" destination="5DP-AA-YGY" id="dL0-dg-U87"/>
+                        <outlet property="segmentControl" destination="Jme-NU-KFw" id="pKu-F5-psA"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TwM-Tf-SMp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
